@@ -1,0 +1,373 @@
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+}
+.activeBox{
+    background-color: red;
+}
+.katasi{
+    display: flex;
+}
+.seidbar{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    top: 0px;
+    left: 0;
+    width: 17%;
+    height: 100vh;
+    position: relative;
+}
+.seidbar::-webkit-scrollbar-thumb{
+ width: 5px;
+ background-color: cadetblue;
+ border-radius: 10px;
+}
+.seidbar::-webkit-scrollbar{
+    width:5px;
+    background-color: transparent;
+}
+.yarimi{
+    width: 80%;
+    height: auto;
+}
+.uzun{
+    display: flex;
+}
+.uzun  > .firstt{
+    position: relative;
+    left: 50px;
+    flex: 0.9;
+}
+.one{
+   position: relative;
+   left: 50px;
+   top: 25px;
+}
+.one > h4 {
+    padding: 5px 0px;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+}
+.one > h4:hover{
+    color:   cadetblue;
+    cursor: pointer;
+}
+.line__gender{
+    width: 60%;
+    height: 1px;
+    background-color: cadetblue;
+   margin-left: 48px;
+   margin-top: 50px;
+}
+.genter{
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.genter > h3 > span {
+  position: relative;
+  left: 50px;
+}
+.one__genter {
+    position: relative;
+    top: 20px;
+}
+.one__genter > input {
+    outline: none;
+}
+
+.one__genter > span{
+    margin-left: 5px;
+}
+.line__gender2{
+    width: 60%;
+    height: 1px;
+    background-color: cadetblue;
+  margin-top: 20px;   
+}
+.shopPrince > h4{
+    position: relative;
+    top: 15px;
+   letter-spacing: -1px;
+}
+.shopPrince > h4 > span {
+    margin-left: 15px;
+    
+}
+.shop__input{
+    margin-top: 25px;
+}
+.shop__input > span{
+    margin-left: 5px;
+}
+.shop__input2 > span{
+    margin-left: 5px;
+}
+.shop__input2{
+    margin-top: 4px;
+}
+.line__Color{
+    width: 60%;
+    height: 1px;
+    background-color: cadetblue;
+    margin-top: 25px;
+}
+.color__sed{
+    margin-top: 20px;
+}
+.color__sed > h3 > span{
+ position: relative;
+ left: 60px;
+}
+.color_pur{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: purple;
+}
+.color__purple{
+    display: flex;
+    padding: 10px 0px;
+}
+.color__purple > .dive {
+    padding: 0px 10px;
+}
+.color__purple >.dive p {
+    font-size: 10px;
+    padding: 0px 3px;
+    cursor: pointer;
+}
+.color__purple >.dive p:hover{
+    color: cadetblue;
+}
+.icon__line{
+    width: 60%;
+    height: 1px;
+    background-color: cadetblue;
+    margin-top: 20px;
+}
+.icn{
+    position: relative;
+    top: 20px;
+}
+.icn > h3 > span {
+    position: relative;
+    left: 70px;
+}
+.icn > .icon__input > input {
+    margin-top: 15px;
+}
+.icn > .icon__input > span {
+    margin-left: 5px;
+}
+
+.texno__line{
+    width: 60%;
+    height: 1px;
+    background-color: cadetblue;
+    margin-top: 30px;
+}
+
+.Texnolgy > h3{
+margin-top: 20px;
+}
+.Texnolgy > h3 > span{
+    position: relative;
+    left: 10px;
+}
+.Texnolgy >  .one__texnolo > span {
+    margin-left: 10px;
+    font-size: 15px;
+
+}
+.Texnolgy >  .one__texnolo{
+    padding: 2px 0px;
+    cursor: pointer;
+}
+.p__more{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.line__shoe{
+    width: 60%;
+    height: 1px;
+    background-color: cadetblue;
+    margin-top: 20px ;
+}
+
+.shoe > h3 > span{
+  position: relative;
+  left: 10px;
+}
+.shoe__input > span {
+    margin-left: 5px;
+}
+.Feel__line{
+    width: 100%;
+    height: 1px;
+    background-color: cadetblue;
+    margin-top: 20px;
+}
+.feel {
+    margin-top: 20px;
+}
+.feel > h3 > span {
+    position: relative;
+    left: 30px;
+}
+
+
+.feel__input > span{
+    margin-left: 5px;
+}
+.width__line{
+    width: 100%;
+    height: 1px;
+    background-color: cadetblue;
+    margin-top: 20px;
+}
+
+.width{
+    margin-top: 20px;
+}
+.width h3 > span{
+    position: relative;
+    left: 60px;
+}
+.width_input > span{
+  margin-left: 5px;
+}
+.best__line{
+    width: 100%;
+    height: 1px;
+    background-color: cadetblue;
+    margin-top: 20px;
+   
+}
+.best {
+    margin-top: 20px;
+}
+
+.best > h3 span {
+    position: relative;
+    left: 40px;
+}
+.best_in span{
+    margin-left: 5px;
+}
+.bosh{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.boshi {
+    width: 100%;
+    position: relative;   
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.boshi > img {
+    height: 400px;
+    width: 380px;
+    position: relative;
+    top: 10px;
+    
+}
+.lineNikeKirasovka{
+    width: 100%;
+    height: 1px;
+    background-color: cadetblue;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.icons {
+  position: absolute;
+  margin-left: 390px;
+  
+}
+.icon{
+    color: black;
+    background-color: cadetblue;
+}
+.icon{
+margin-left: 15px ;
+}
+.icon:hover {
+    transition: 0.5s all;
+    background-color: #fff;
+}
+.footer__tepa{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.birinchiBtnlar{
+ margin-top: 15px;
+}
+.btn__footer{
+    width: 155px;
+    height: 40px;
+    background-color: #fff;
+    color: black;
+    border-radius: 50px;
+    border: solid  rgb(221, 237, 238);
+    margin-left: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.btn__footer:hover{
+    border: solid slategrey;
+}
+.footer__lineuz{
+   position: relative;
+    width: 90%;
+ top: 30px;
+    height: 1px;
+    background-color: cadetblue;
+ margin: auto;
+}
+.nikeInc{
+    width: 90%;
+    margin: auto;
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+ color: #fff;
+}
+.notActiveDiv{
+transform-origin: top ;
+transition: all 0.3s;
+transform: scaleY(0);
+}
+.notActiveDive{
+transform-origin: top ;
+transition: all 0.3s;
+transform: scaleY(0);
+}
+.notActiveDivv{
+    transform-origin: top ;
+transition: all 0.3s;
+transform: scaleY(0);
+}
+.notActiveDivs{
+    transform-origin: top ;
+transition: all 0.3s;
+transform: scaleY(0);
+}
+.notActiveDivsz{
+    transform-origin: top ;
+    transition: all 0.3s;
+    transform: scaleY(0);
+}
+.notActiveDivsa{
+    transform-origin: top ;
+    transition: all 0.3s;
+    transform: scaleY(0);
+}
+
+
+
+
+

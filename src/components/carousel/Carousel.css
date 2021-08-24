@@ -1,0 +1,17 @@
+.Carousel{
+    width: 100%;
+    height: 70vh;
+    margin-top: 40px;
+}
+
+.carousel_wrapper{
+    display: flex;
+   overflow-x: auto;
+   width: 100%;
+}
+.carousel_item{
+    /* width: 400px;
+    height: 400px; */
+    position: relative;
+    margin: 0px 100px;
+}

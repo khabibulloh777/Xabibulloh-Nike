@@ -1,0 +1,85 @@
+.schoolsale__container{
+    width: 100%;
+    height: 120vh;
+    background-color: #fff;
+    display: flex;
+}
+.shoolsale__main{
+    width: 51%;
+    margin: 10px;
+    margin-right: 10px;
+    height: 118vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+ background-position-y: 10%;   
+    background-image: url('https://static.nike.com/a/images/f_auto/dpr_1.0/h_1216,c_limit/438b044c-87a4-4491-8a42-065234779688/nike-just-do-it.jpg');
+}
+.schoolsale__double{
+    width: 50%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+.primary{
+    width: 100%;
+    height: 60vh;
+    background-size: 90%; 
+     background-position-x: 10%;
+     background-repeat: no-repeat;
+     object-fit: contain;
+     margin-top: 10px;
+     background-color: #912EDF;
+     background-image: url('https://static.nike.com/a/images/f_auto/dpr_1.0/w_888,c_limit/84fb5e8a-2c91-453b-b9fc-87721af3d481/nike-just-do-it.jpg');
+
+}
+.secuntary{
+    width: 100%;
+    margin-top: 10px;
+    height: 56.6vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('https://static.nike.com/a/images/f_auto/dpr_1.0/w_888,c_limit/90c7ea94-7b78-4db3-86e2-15ff0fe80d28/nike-just-do-it.jpg');
+
+}
+.shoolsale__main > span{
+    color: #fff;
+    position: absolute;
+    margin-top: 680px;
+    left: 70px;
+    font-size: 25px;
+}
+.shoolsale__main > button{
+ display: block;
+ position: absolute;
+margin-top: 740px;
+left: 30px;
+background-color: #fff;
+color: black;
+}
+.primary > span{
+    color: #fff;
+    position: relative;
+    top: 280px;
+    left: 40px;
+    font-size: 20px;
+}
+.primary > button{
+    display: block;
+    margin-top: 300px;
+    background-color: #fff;
+    color: #000;
+}
+.secuntary > span{
+    color: #fff;
+    position: relative;
+    top: 280px;
+    left: 40px;
+    font-size: 20px;
+}
+.secuntary >button{
+    display: block;
+    margin-top: 300px;
+    background-color: #fff;
+    color: #000;
+}

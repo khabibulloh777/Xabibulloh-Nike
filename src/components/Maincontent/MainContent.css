@@ -1,0 +1,59 @@
+@font-face{
+    font-family: Nike Futura;
+  src: url('../../Fonts/Futura\ Condensed\ Extra\ Bold.otf');   
+ }
+
+.maincontent{
+    margin-top: 80px;
+}
+.maincontent__videoSource{
+    width: 100%;
+}
+.maincontent > h2{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.videoFrema{
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 10;
+    left: 0.2px;
+}
+.maincontent__videoinfo{
+    position: absolute;
+    bottom: 25vh;
+    padding: 0px 40px;
+}
+.maincontent__videoinfo > h1{
+    padding: 0px 40px 15px 0px;
+    font-size: 70px;
+    line-height: 55px;
+    font-family: Nike Futura;
+    letter-spacing: -5px;
+    color: #fff;
+}
+.maincontent__videoinfo> p {
+    font-size: 18px;
+    line-height: 27px;
+     font-family: Nike Futura;
+  user-select: none;
+  white-space: 1px;
+    color: #fff;
+}
+.maincontent__videoinfo > button{
+    padding: 10px 28px;
+    margin: 30px 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.maincontent__videoinfo > button:last-child{
+    margin-left: 20px;
+}
+.maincontent{
+    position: relative;
+}

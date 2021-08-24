@@ -1,0 +1,354 @@
+.kattasi{
+position: relative;
+    display: flex;
+    margin-top: 40px;
+}
+.onew{
+    margin-left: 50px;
+}
+.seidbarr{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 74%;
+    height: 100vh;
+    position: relative;
+    margin-left: 50px;
+}
+.seidbarr::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+.seidbarr::-webkit-scrollbar{
+    width:5px;
+    background-color: transparent;
+}
+.seidbarr > .yanaa > div > ul > li{
+  margin-left: 10px;
+  padding-top: 10px;
+}
+.yarmiya{
+    position: relative;
+    width: 60%;
+    height: auto;
+
+}
+.NotactiveOpendive{
+    transform: translateX(-500px);
+    transition: .5s all;
+}
+.activeopendive{
+    transition: .5s all;
+}
+.pText{
+    margin-left: 50px;
+cursor: pointer;
+}
+.pText > p {
+    padding: 5px 0px;
+}
+.pText > p:hover{
+    color: cadetblue;
+    transition: .2s all;
+   
+}
+.linepText{
+    margin-top: 20px;
+    width: 100%;
+    height: 10px;
+    color: cadetblue;
+}
+.gentter{
+    margin-left: 50px;
+}
+.gentter > span{
+    margin-left: 80px;
+}
+.coleectionUl{
+    padding-top: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.collectionLi{
+    padding: 3px 0px;
+}
+.collectionLi:hover{
+    color: cadetblue;
+    
+
+}
+.notactivesdiv{
+    transform: scale(0);
+    transition: .1s all;
+}
+.ginterSection2line{
+    width: 80%;
+    position: relative;
+    top: 20px; 
+    height: 1px;
+    margin: auto;
+    background-color: cadetblue;
+}
+.kidsSection2 > span{
+    margin-left: 100px;
+}
+.section2Kids{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.NotActiveKids{
+    transform: scale(0);
+    transition: .1s all;
+}
+.ulli{
+    padding-top: 10px;
+ cursor: pointer;
+}
+
+.ulli > li:hover{
+    color: cadetblue;
+}
+.shopPrinciby{
+    width: 80%;
+    position: relative;
+    top: 20px;
+    height: 1px;
+    background-color: cadetblue;
+    margin: auto;
+}
+.notactiveshopby{
+    transform: scale(0);
+    transition: .1s all;
+}
+.ShopPrinceSection2{
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.ShopbyPrinci > span {
+    margin-left: 20px;
+}
+
+.yana{
+    margin-left: 5px;
+}
+
+.yanaa{
+position: relative;
+left: 50px;
+  
+}
+.seidbarr .yanae > div > ul > li{
+    margin-left: 50px;
+}
+.linedavay{
+    width: 80%;
+    height: 1px;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    background-color: cadetblue;
+}
+.ColorSection2{
+    margin-left: 50px;
+   margin-top: 20px ;
+}
+.colorSection2da > span{
+    margin-left: 90px;
+    
+}
+
+.kats{
+    width: 50px;
+    height: 50px;
+ display: block;
+  padding: 15px 15px;
+  cursor: pointer;
+}
+
+.kats > p{
+padding: 8px 0px;
+}
+.rows{
+    display: flex;
+  padding: 10px 20px;
+}
+.purple{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: purple;    
+}
+.blue{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;  
+}
+.blackww{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;  
+}
+.gren{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;  
+}
+.red{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;  
+}
+.White{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.Brown{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.orange{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: orange;
+}
+.Yellow{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.Green{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+}
+.Pink{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: Pink;
+}
+.notactivecolor{
+    transform: scale(0);
+    transition: 0.3s all;
+}
+
+.brendline{
+    width: 80%;
+    height: 1px;
+    position: relative;
+    top: 180px;
+    margin: auto;
+    background-color: cadetblue;
+}
+.brendSection2{
+    margin-top: 195px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.brendSection > span{
+    margin-left: 80px;
+}
+.NotActiveBrend{
+    transition: .3s all;
+    transform: scale(0);
+}
+.ulcollection{
+    margin-top: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.sportsline{
+    width: 80%;
+    height: 1px;
+    position: relative;
+    top: 20px;
+    background-color: cadetblue;
+    margin: auto;
+}
+.sportssection{
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.sportssection > span{
+    margin-left: 10px;
+}
+.sport{
+    margin-left: 50px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.notbrenactive{
+    transform: scale(0);
+    transition: .3s all;
+}
+.athletsline{
+    width: 80%;
+    height: 1px;
+    background-color: cadetblue;
+    position: relative;
+    top: 20px;
+    margin: auto;
+}
+.athlets{
+    margin-left: 50px;
+  margin-top: 20px;
+}
+.athletssection > span{
+ margin-left: 80px;
+}
+.athletscom{
+    margin-left: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.activenotathelets{
+    transition: .3s all;
+    transform: scale(0);
+}
+.atshletslineee{
+    width: 80%;
+    height: 1px;
+    background-color: cadetblue;
+    position: relative;
+    top: 20px;
+    margin: auto;
+}
+.bestforsection{
+    margin-left: 50px;
+}
+.bestforsection > span{
+    margin-left: 50px;
+}
+.notActiveFor{
+    transition: .3s all;
+    transform: scale(0);
+}
+.kirasovka_item > img{
+ width: 380px;
+ height: 380px;
+  padding: 0px 10px;
+}
+
+.collecti__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 10px;
+}
+.vhnotopenddive{
+     transform: translateX(-100px);
+    width: 100%;
+
+}

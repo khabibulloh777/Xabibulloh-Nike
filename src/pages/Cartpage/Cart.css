@@ -1,0 +1,293 @@
+.cart{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.cart__container{
+    padding-top: 50px;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+}
+
+.cart__bag{
+    width: 60%;
+    height: 100%;
+}
+.promo{
+    padding-top: 10px;
+}
+
+.cart__summary{
+    width: 40%;
+    height: 100%;
+}
+
+.shipping__btn{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    border: 1px solid #8080807a;
+    border-radius: 2px;
+}
+.shipping__btn > p {
+    color: #FA5401;
+    padding: 5px 20px;
+}
+.shipping__btn > span {
+    font-size: 13px ;
+    color: gray;
+    padding: 5px 20px;
+}
+.cart__bag > h3 {
+    padding: 10px 5% ; 
+    font-size: 30px;
+}
+.cart__bag > p{
+    padding: 10px 5%;
+}
+.onclik{
+  
+    align-items: center;
+
+}
+.input{
+    display: flex;
+    padding: 10px 0px   ;
+}
+
+.input > button {
+    margin-left: 10px;
+   width: 80px;
+   height: 40px;
+   border-radius: 10px;
+  border: none;
+}
+.input > .inn {
+  width: 280px;
+ border-radius: 10px;
+ outline: none;
+ font-size: 20px;
+ letter-spacing: -2px;
+}
+.Subtotal{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.shipping{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.Estime{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    font-weight: 100;
+}
+.line{
+    width: 100%;
+    height: 0.7px;
+    background-color: rgb(179, 177, 174);
+    margin-top: 18px;
+}
+.linew2 {
+    width: 100%;
+    height: 0.7px;
+    background-color: rgb(179, 177, 174);
+  margin-top: 18px;
+}
+.total{
+    width: 90%;
+    display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.onclik > h3 > span {
+    cursor: pointer;
+
+}
+.onclik > svg{
+  position: absolute;
+    display: flex;
+}
+.chiq{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(126, 113, 113);
+    right: 620px;
+  font-size: 11px;
+  padding: 10px; 
+  color: #fff;
+}
+
+.active{
+ transform: scale(1);
+}
+.hello{
+    position: absolute;
+    font-size: 11px;
+    width: 200px;
+    font-weight: 500;
+    color: #fff;
+    padding: 6.5px;
+    height: 78px;
+     left: 750px;
+     margin-top: 8px;
+    z-index: 55;
+    background-color: rgb(126, 113, 113);
+}
+.ochiq{
+    transform: scale(1);
+}
+.oxirgisi{
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    background-color: rgb(126, 113, 113);
+    font-size: 14px;
+    padding: 10px;
+    right: 470px;
+    margin-top: 5px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.ochiq  {
+    transform: scale(1);
+}
+.och{
+    transform: scale(1);
+}
+.nimadur{
+    position: absolute;
+    bottom: 50px;
+    margin-left: 15px;
+}
+.line10{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(126, 113, 113);
+    margin-top: 80px;
+}
+.crusel{
+    width: 100%;
+    margin-top: 50px;
+}
+.crusel > .carousel_wrapper > .carousel_item{
+    width: 100%;
+    height: 70vh;
+    object-fit: contain;
+} 
+.crusel > .carousel_wrapper > .carousel_item > img {
+    height: 60vh;
+}
+.crusel > h3{
+    position: relative;
+    left: 120px;
+    top: -15px;
+    
+}
+.carous_uz{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.black{
+width: 100%;
+height: 40vh;
+background-color: black;
+position: relative;
+top: 80px;
+}
+.footerkatta{
+    position: relative;
+   color: #fff;
+   font-size: 11px;
+   letter-spacing: -1px;
+   display: flex;
+}
+.blok {
+  padding: 30px 0px 0px 80px;
+  cursor: pointer;
+}
+
+.blok > h3 {
+    padding: 5px 0px;
+}
+
+.help{
+    padding: 30px 2px 0px 120px;
+    font-size: 12px;
+}
+.help > p {
+    color: rgb(126, 113, 113);
+     padding: 6px 0px;
+     cursor: pointer;
+}
+.help > p:hover{
+    color: #fff;
+}
+.AboutNike {
+    padding: 30px 0px 0px 150px;
+    font-size: 12px;
+}
+.AboutNike > p {
+    color: rgb(126, 113, 113);
+    padding: 5px 0px 10px 0px;
+}
+.AboutNike > p:hover{
+    color: #fff;
+}
+.icons{
+    display: flex;
+    position: relative;
+    left: 750px;
+   top: 30px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    color: aqua;
+    border-radius: 50%;
+
+}
+.icon > svg{
+    display: grid;
+     margin: auto;
+     margin-top: 5.5px;        
+}
+
+.NotOpenDive{
+ transform: scale(0);
+ transition: .5s all linear;
+ transform-origin: left top;
+}
+
+.NotOpenText{
+transform: scale(0);
+transition: .5s ; 
+}
+.NotOpen{
+display: none;
+}
+.NotOxirgi{
+    display: none;
+}
+.carousel_wrapper::-webkit-scrollbar-thumb{
+    height: 5px;
+    background-color: yellow;
+ border-radius: 10px;
+}
+.carousel_wrapper::-webkit-scrollbar{
+    height: 7px;
+    background-color: transparent;
+}
